@@ -1,0 +1,42 @@
+   
+.App{
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 20%;
+  height: 600px;
+  margin:  100px 15px 20px 15px;
+  border: 3px solid grey;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 5px 10px #a09e9e;
+}
+
+.card-title {
+  text-align: center;
+  margin: 20px;
+  font-size:x-large;
+  background-color: #a09e9e;
+}
+
+.card-img-top {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  height: 60%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.card-text {
+  text-align: center;
+  font-size: large;
+  margin: 40px 70px 0 70px;
+  background-color: #a09e9e;
+
+}
+
+.bg-dark {
+  height: 90px;
+}
